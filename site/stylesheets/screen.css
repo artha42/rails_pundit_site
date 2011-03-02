@@ -1,0 +1,375 @@
+/* line 14, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+/* line 17, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, /Users/vagmi/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.10.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 2 */
+body {
+  background-image: url(/images/red091.jpg);
+  color: white;
+}
+/* line 5 */
+body .footer {
+  margin: 0px auto;
+  background-color: #333333;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Josefin Sans", serif;
+  font-size: 15px;
+}
+/* line 14 */
+body .footer .text {
+  padding: 10px;
+}
+/* line 16 */
+body .header {
+  width: 960px;
+  margin: 0px auto;
+}
+/* line 19 */
+body .header h1 {
+  font-family: "Slackey", serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px #333333;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+  float: left;
+}
+/* line 31 */
+body .header #nav {
+  position: fixed;
+  top: 0;
+  margin-left: 650px;
+  padding: 20px 10px 10px 10px;
+  background-color: #555555;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  box-shadow: 2px 2px 2px #aaaaaa;
+  -moz-box-shadow: 2px 2px 2px #333333;
+  -webkit-box-shadow: 2px 2px 2px #333333;
+}
+/* line 44 */
+body .header #nav li {
+  display: inline;
+  margin: 5px;
+}
+/* line 47 */
+body .header #nav li a {
+  font-family: "Josefin Sans", serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+  color: white;
+}
+/* line 59 */
+body .header #nav li a.link-active {
+  color: #dd5522;
+}
+/* line 61 */
+body .share {
+  position: fixed;
+  left: 0;
+  margin-top: 150px;
+  background-color: #e8e8e2;
+  padding: 3px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 5px;
+  box-shadow: 2px 2px 5px #555555;
+  -moz-box-shadow: 2px 2px 5px #555555;
+  -webkit-box-shadow: 2px 2px 5px #555555;
+}
+/* line 74 */
+body .share span {
+  display: block;
+  margin: 0 2px;
+  width: 40px;
+}
+/* line 79 */
+body .register_link_vertical {
+  position: fixed;
+  right: 0;
+  display: none;
+  margin-top: 150px;
+  background-color: #e8e8e2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  box-shadow: 2px 2px 5px #555555;
+  -moz-box-shadow: 2px 2px 5px #555555;
+  -webkit-box-shadow: 2px 2px 5px #555555;
+  width: 30px;
+  height: 110px;
+}
+/* line 94 */
+body .register_link_vertical .vertical_container {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  float: left;
+  clear: both;
+  width: 100%;
+}
+/* line 101 */
+body .register_link_vertical .vertical_container a {
+  font-family: "philosopher", serif;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  margin-left: -70px;
+  font-weight: bold;
+  color: #960911;
+}
+/* line 110 */
+body .content {
+  width: 950px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 0px auto;
+  clear: both;
+  background-color: #e8e8e2;
+  border-radius: 5px;
+  color: #333333;
+  -moz-border-radius: 10px;
+  box-shadow: 5px 5px 2px #333333;
+  -moz-box-shadow: 5px 5px 5px #555555;
+  -webkit-box-shadow: 5px 5px 5px #555555;
+}
+/* line 123 */
+body .content .section {
+  margin-bottom: 300px;
+  margin-left: 10px;
+  font-family: "Josefin Sans", serif;
+  clear: both;
+}
+/* line 128 */
+body .content #about {
+  float: left;
+  clear: both;
+  margin-top: 20px;
+}
+/* line 132 */
+body .content #about h2 {
+  text-align: center;
+  clear: both;
+  font-weight: normal;
+  font-size: 32px;
+}
+/* line 137 */
+body .content #about h2 span.highlight {
+  color: #960911;
+  font-weight: bold;
+  font-size: 36px;
+}
+/* line 141 */
+body .content #about #tagline {
+  clear: both;
+  margin: 50px 0 15px 0;
+}
+/* line 144 */
+body .content #about #tagline h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #960911;
+  font-size: 50px;
+}
+/* line 149 */
+body .content #about #about_image {
+  float: left;
+  width: 580px;
+  margin: 25px 0;
+}
+/* line 153 */
+body .content #about #action_text {
+  float: left;
+  width: 320px;
+  font-family: "Philosopher", sans-serif;
+  color: #664433;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 30px 10px;
+}
+/* line 162 */
+body .content #about #action_text #register_link {
+  display: block;
+  float: left;
+  background-color: #960911;
+  color: #e8e8e2;
+  font-size: 32px;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 2px #333333;
+  -moz-box-shadow: 5px 5px 2px #333333;
+  -webkit-box-shadow: 5px 5px 2px #333333;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 178 */
+body .content h2 {
+  font-family: "Philosopher", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1.2;
+}
+/* line 190 */
+body .content #summary {
+  font-size: 22px;
+}
+/* line 193 */
+body .content #summary h3 {
+  font-size: 28px;
+  font-weight: bold;
+  float: left;
+  margin: 10px 0;
+  clear: both;
+}
+/* line 199 */
+body .content #summary p {
+  clear: both;
+  font-weight: normal;
+  line-height: 1.5em;
+  margin: 1em 0;
+  float: left;
+}
+/* line 205 */
+body .content #summary ul {
+  float: left;
+  clear: both;
+  margin: 10px 30px;
+  list-style: disc;
+  line-height: 1.5em;
+}
+/* line 212 */
+body .content #details {
+  margin-bottom: 100px;
+}
+/* line 214 */
+body .content #details dd {
+  clear: both;
+  font-weight: bold;
+  font-size: 26px;
+  margin: 20px 0;
+}
+/* line 220 */
+body .content #details dt {
+  margin-left: 40px;
+  font-size: 22px;
+}
+/* line 225 */
+body .content #details dt a {
+  color: #960911;
+}
+/* line 227 */
+body .content #details dt #map {
+  float: left;
+  clear: both;
+  width: 435;
+  height: 360;
+  background-color: white;
+  margin: 15px 0;
+  padding: 5px;
+  box-shadow: 3px 3px 3px #333333;
+  -moz-box-shadow: 3px 3px 3px #333333;
+  -webkit-box-shadow: 3px 3px 3px #333333;
+}
+/* line 238 */
+body .content #details dt #map a {
+  text-decoration: none;
+  font-size: smaller;
+  color: #960911;
+}
+/* line 242 */
+body .content #details dt #fb_page {
+  margin: 5px;
+  float: left;
+  clear: left;
+  width: 400px;
+}
+/* line 247 */
+body .content #details dt #tweetbox {
+  margin: 5px;
+  float: left;
+  width: 400px;
+}
