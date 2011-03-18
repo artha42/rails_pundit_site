@@ -257,12 +257,19 @@ body .content #about #tagline h2 {
   font-size: 50px;
 }
 /* line 156 */
+body .content #about #tagline h3 {
+  text-align: center;
+  color: #333333;
+  font-size: 22px;
+  font-family: "Philosopher", sans-serif;
+}
+/* line 161 */
 body .content #about #about_image {
   float: left;
   width: 580px;
   margin: 25px 0;
 }
-/* line 160 */
+/* line 165 */
 body .content #about #action_text {
   float: left;
   width: 320px;
@@ -273,7 +280,7 @@ body .content #about #action_text {
   font-weight: bold;
   margin: 30px 10px;
 }
-/* line 169 */
+/* line 174 */
 body .content #about #action_text #register_link {
   display: block;
   float: left;
@@ -291,7 +298,7 @@ body .content #about #action_text #register_link {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 185 */
+/* line 190 */
 body .content h2 {
   font-family: "Philosopher", serif;
   font-size: 36px;
@@ -301,14 +308,14 @@ body .content h2 {
   text-decoration: none;
   text-transform: none;
   word-spacing: 0em;
-  line-height: 1.2;
+  line-height: 120%;
 }
-/* line 195 */
+/* line 200 */
 body .content h2 a {
   color: #960911;
   text-decoration: none;
 }
-/* line 198 */
+/* line 203 */
 body .content #calltext {
   margin-top: 1em;
   text-align: center;
@@ -316,35 +323,37 @@ body .content #calltext {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: -0.03em;
 }
-/* line 204 */
+/* line 209 */
 body .content #calltext em {
   color: #960911;
+  font-weight: bold;
 }
-/* line 206 */
+/* line 212 */
 body .content #calltext a {
   color: #960911;
+  font-weight: bold;
 }
-/* line 209 */
+/* line 216 */
 body .content #summary {
   font-size: 22px;
 }
-/* line 212 */
+/* line 219 */
 body .content #summary h3 {
   font-size: 28px;
   font-weight: bold;
   float: left;
-  margin: 10px 0;
+  margin: 0.8em 0;
   clear: both;
 }
-/* line 218 */
+/* line 225 */
 body .content #summary p {
   clear: both;
   font-weight: normal;
   line-height: 1.5em;
-  margin: 1em 0;
+  margin: 0.8em 0;
   float: left;
 }
-/* line 224 */
+/* line 231 */
 body .content #summary ul {
   float: left;
   clear: both;
@@ -352,27 +361,27 @@ body .content #summary ul {
   list-style: disc;
   line-height: 1.5em;
 }
-/* line 231 */
+/* line 238 */
 body .content #details {
   margin-bottom: 100px;
 }
-/* line 233 */
+/* line 240 */
 body .content #details dd {
   clear: both;
   font-weight: bold;
   font-size: 26px;
   margin: 20px 0;
 }
-/* line 239 */
+/* line 246 */
 body .content #details dt {
   margin-left: 40px;
   font-size: 22px;
 }
-/* line 244 */
+/* line 251 */
 body .content #details dt a {
   color: #960911;
 }
-/* line 246 */
+/* line 253 */
 body .content #details dt #map {
   float: left;
   clear: both;
@@ -385,20 +394,20 @@ body .content #details dt #map {
   -moz-box-shadow: 3px 3px 3px #333333;
   -webkit-box-shadow: 3px 3px 3px #333333;
 }
-/* line 257 */
+/* line 264 */
 body .content #details dt #map a {
   text-decoration: none;
   font-size: smaller;
   color: #960911;
 }
-/* line 261 */
+/* line 268 */
 body .content #details dt #fb_page {
   margin: 5px;
   float: left;
   clear: left;
   width: 400px;
 }
-/* line 266 */
+/* line 273 */
 body .content #details dt #tweetbox {
   margin: 5px;
   float: left;
