@@ -101,7 +101,7 @@ body .header h1 {
 body .header #nav {
   position: fixed;
   top: 0;
-  margin-left: 650px;
+  margin-left: 550px;
   padding: 20px 10px 10px 10px;
   background-color: #555555;
   border-bottom-left-radius: 5px;
@@ -115,7 +115,7 @@ body .header #nav {
 /* line 44 */
 body .header #nav li {
   display: inline;
-  margin: 5px;
+  margin: 5px 6px;
 }
 /* line 47 */
 body .header #nav li a {
@@ -139,10 +139,14 @@ body .header #nav li a.link-active {
 body .header #nav li.contact {
   display: block;
   font-family: "Josefin Sans", serif;
-  font-size: smaller;
-  margin: 0 5px;
+  margin: 5px;
+  font-size: 18px;
 }
 /* line 66 */
+body .header #nav li.contact a {
+  font-size: 18px;
+}
+/* line 68 */
 body .share {
   position: fixed;
   left: 0;
@@ -157,13 +161,13 @@ body .share {
   -moz-box-shadow: 2px 2px 5px #555555;
   -webkit-box-shadow: 2px 2px 5px #555555;
 }
-/* line 79 */
+/* line 81 */
 body .share span {
   display: block;
   margin: 0 2px;
   width: 40px;
 }
-/* line 84 */
+/* line 86 */
 body .register_link_vertical {
   position: fixed;
   right: 0;
@@ -180,7 +184,7 @@ body .register_link_vertical {
   width: 30px;
   height: 110px;
 }
-/* line 99 */
+/* line 101 */
 body .register_link_vertical .vertical_container {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -189,7 +193,7 @@ body .register_link_vertical .vertical_container {
   clear: both;
   width: 100%;
 }
-/* line 106 */
+/* line 108 */
 body .register_link_vertical .vertical_container a {
   font-family: "philosopher", serif;
   text-decoration: none;
@@ -199,7 +203,7 @@ body .register_link_vertical .vertical_container a {
   font-weight: bold;
   color: #960911;
 }
-/* line 115 */
+/* line 117 */
 body .content {
   width: 950px;
   min-height: 500px;
@@ -214,51 +218,51 @@ body .content {
   -moz-box-shadow: 5px 5px 5px #555555;
   -webkit-box-shadow: 5px 5px 5px #555555;
 }
-/* line 128 */
+/* line 130 */
 body .content .section {
   margin-bottom: 50px;
   margin-left: 10px;
   font-family: "Josefin Sans", serif;
   clear: both;
 }
-/* line 133 */
+/* line 135 */
 body .content #about {
   float: left;
   clear: both;
   margin-top: 20px;
 }
-/* line 137 */
+/* line 139 */
 body .content #about h2 {
   text-align: center;
   clear: both;
   font-weight: normal;
   font-size: 32px;
 }
-/* line 142 */
+/* line 144 */
 body .content #about h2 span.highlight {
   color: #960911;
   font-weight: bold;
   font-size: 36px;
 }
-/* line 146 */
+/* line 148 */
 body .content #about #tagline {
   clear: both;
   margin: 5px 0 15px 0;
 }
-/* line 149 */
+/* line 151 */
 body .content #about #tagline h2 {
   text-align: center;
   font-weight: bold;
   color: #960911;
   font-size: 50px;
 }
-/* line 154 */
+/* line 156 */
 body .content #about #about_image {
   float: left;
   width: 580px;
   margin: 25px 0;
 }
-/* line 158 */
+/* line 160 */
 body .content #about #action_text {
   float: left;
   width: 320px;
@@ -269,7 +273,7 @@ body .content #about #action_text {
   font-weight: bold;
   margin: 30px 10px;
 }
-/* line 167 */
+/* line 169 */
 body .content #about #action_text #register_link {
   display: block;
   float: left;
@@ -287,7 +291,7 @@ body .content #about #action_text #register_link {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 183 */
+/* line 185 */
 body .content h2 {
   font-family: "Philosopher", serif;
   font-size: 36px;
@@ -299,22 +303,32 @@ body .content h2 {
   word-spacing: 0em;
   line-height: 1.2;
 }
-/* line 193 */
+/* line 195 */
 body .content h2 a {
   color: #960911;
   text-decoration: none;
 }
-/* line 196 */
-body .content h2 span.contact {
+/* line 198 */
+body .content #calltext {
+  margin-top: 1em;
+  text-align: center;
+  font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
-  font-size: smaller;
   letter-spacing: -0.03em;
 }
-/* line 201 */
+/* line 204 */
+body .content #calltext em {
+  color: #960911;
+}
+/* line 206 */
+body .content #calltext a {
+  color: #960911;
+}
+/* line 209 */
 body .content #summary {
   font-size: 22px;
 }
-/* line 204 */
+/* line 212 */
 body .content #summary h3 {
   font-size: 28px;
   font-weight: bold;
@@ -322,7 +336,7 @@ body .content #summary h3 {
   margin: 10px 0;
   clear: both;
 }
-/* line 210 */
+/* line 218 */
 body .content #summary p {
   clear: both;
   font-weight: normal;
@@ -330,7 +344,7 @@ body .content #summary p {
   margin: 1em 0;
   float: left;
 }
-/* line 216 */
+/* line 224 */
 body .content #summary ul {
   float: left;
   clear: both;
@@ -338,27 +352,27 @@ body .content #summary ul {
   list-style: disc;
   line-height: 1.5em;
 }
-/* line 223 */
+/* line 231 */
 body .content #details {
   margin-bottom: 100px;
 }
-/* line 225 */
+/* line 233 */
 body .content #details dd {
   clear: both;
   font-weight: bold;
   font-size: 26px;
   margin: 20px 0;
 }
-/* line 231 */
+/* line 239 */
 body .content #details dt {
   margin-left: 40px;
   font-size: 22px;
 }
-/* line 236 */
+/* line 244 */
 body .content #details dt a {
   color: #960911;
 }
-/* line 238 */
+/* line 246 */
 body .content #details dt #map {
   float: left;
   clear: both;
@@ -371,20 +385,20 @@ body .content #details dt #map {
   -moz-box-shadow: 3px 3px 3px #333333;
   -webkit-box-shadow: 3px 3px 3px #333333;
 }
-/* line 249 */
+/* line 257 */
 body .content #details dt #map a {
   text-decoration: none;
   font-size: smaller;
   color: #960911;
 }
-/* line 253 */
+/* line 261 */
 body .content #details dt #fb_page {
   margin: 5px;
   float: left;
   clear: left;
   width: 400px;
 }
-/* line 258 */
+/* line 266 */
 body .content #details dt #tweetbox {
   margin: 5px;
   float: left;
