@@ -64,3 +64,6 @@ jQuery(function($) {
   $("a[href=#about]").addClass("link-active");
 });
 
+$(document).ready(function(){
+  $("a.iframe").fancybox({width: 800, height: 700});
+})
