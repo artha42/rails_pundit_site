@@ -3,10 +3,11 @@ body
   background-image: url(/images/red091.jpg)
   color: #fff
   .footer
-    margin: 0px auto
     background-color: #333
     border-top-left-radius: 5px
     border-top-right-radius: 5px
+    width: 100%
+    float: left
     margin-top: 10px
     text-align: center
     font-family: "Josefin Sans", serif
@@ -16,22 +17,23 @@ body
   .header
     width: 960px
     margin: 0px auto
+    height: 80px
     h1
-      font-family: 'Slackey', serif
-      font-size: 60px 
-      font-style: normal
-      font-weight: 700
-      text-shadow: 2px 2px 2px #333
-      text-decoration: none
-      text-transform: none
-      letter-spacing: 0em
-      word-spacing: 0em
-      line-height: 1.2
       float: left
+      font-size: 60px 
+      a
+        font-family: 'Slackey', serif
+        font-style: normal
+        font-weight: 700
+        text-shadow: 2px 2px 2px #333
+        text-decoration: none
+        text-transform: none
+        letter-spacing: 0em
+        word-spacing: 0em
+        line-height: 1.2
+        color: #fff
     #nav
-      position: fixed
-      top: 0
-      margin-left: 550px 
+      float: right
       padding: 20px 10px 10px 10px
       background-color: #555
       border-bottom-left-radius: 5px
@@ -116,171 +118,232 @@ body
         color: #960911
   .content
     width: 950px
-    min-height: 500px
-    padding: 10px
+    min-height: 900px
     margin: 0px auto
-    clear: both
-    background-color: #e8e8e2
-    border-radius: 5px
-    color: #333
-    -moz-border-radius: 10px
-    box-shadow: 5px 5px 2px #333
-    -moz-box-shadow: 5px 5px 5px #555
-    -webkit-box-shadow: 5px 5px 5px #555
-    .section
-      margin-bottom: 50px
-      margin-left: 10px
-      font-family: "Josefin Sans", serif
-      clear: both
-    #about
+    .container
+      width: 100%
       float: left
       clear: both
-      margin-top: 20px
-      h2
-        text-align: center
+      display: block
+      margin-top: 10px
+      //background-color: #ffe
+      background-color: #e8e8e2
+      border-radius: 5px
+      color: #333
+      -moz-border-radius: 10px
+      box-shadow: 5px 5px 2px #333
+      -moz-box-shadow: 5px 5px 5px #555
+      -webkit-box-shadow: 5px 5px 5px #555
+      .section
+        margin-bottom: 50px
+        margin-left: 10px
+        font-family: "Josefin Sans", serif
         clear: both
-        font-weight: normal
-        font-size: 32px
-        span.highlight
-          color: #960911
-          font-weight: bold
-          font-size: 36px
-      #tagline
+      #corporate
+        font-size: 22px
+        .text
+          width: 600px
+          float: left
+          p
+            line-height: 1.5em
+            margin-top: 1em
+        .right
+          width: 300px
+          float: right
+          margin-top: 1.5em
+          #action_button
+            float: left 
+            clear: both
+            a
+              display: block
+              background-color: #960911
+              float: left
+              color: #e8e8e2
+              font-size: 18px
+              padding: 10px
+              margin-top: 20px
+              text-decoration: none
+              border-radius: 8px
+              box-shadow: 5px 5px 2px #333
+              -moz-box-shadow: 5px 5px 2px #333
+              -webkit-box-shadow: 5px 5px 2px #333
+              -moz-border-radius: 8px
+              -webkit-border-radius: 8px
+            a:hover
+              font-size: 32px
+              margin-top: 10px
+          #companies
+            float: left
+            clear: both
+            font-size: smaller
+            margin: 1em 0
+            ul
+              margin-top: 1em
+              
+      #about
+        float: left
         clear: both
-        margin: 5px 0 15px 0
+        margin-top: 20px
         h2
           text-align: center
-          font-weight: bold
-          color: #960911
-          font-size: 50px
-        h3
-          text-align: center
-          color: #333
-          font-size: 22px 
-          font-family: "Philosopher", sans-serif
-      #about_image
-        float: left
-        width: 320px 
-        margin: 25px 0
-        margin-left: 50px
-      #action_text
-        float: left
-        width: 520px
-        font-family: 'Philosopher', sans-serif
-        color: #643
-        font-size: 28px
-        font-style: normal
-        font-weight: bold
-        margin: 30px 10px
-        #register_link
-          display: block
-          float: left
-          background-color: #960911
-          color: #e8e8e2
+          clear: both
+          font-weight: normal
           font-size: 32px
-          padding: 10px
-          margin-top: 10px
-          text-decoration: none
-          box-shadow: 5px 5px 2px #333
-          -moz-box-shadow: 5px 5px 2px #333
-          -webkit-box-shadow: 5px 5px 2px #333
-          border-radius: 8px
-          -moz-border-radius: 8px
-          -webkit-border-radius: 8px
-          border-radius: 8px
-    h2
-      font-family: 'Philosopher', serif
-      font-size: 36px
-      font-style: normal
-      font-weight: 400
-      text-shadow: none
-      text-decoration: none
-      text-transform: none
-      word-spacing: 0em
-      line-height: 120%
-      a
-        color: #960911
-        text-decoration: none
-    #calltext
-      margin-top: 1em
-      text-align: center
-      font-size: 22px
-      font-family: 'Josefin Sans', sans-serif
-      letter-spacing: -0.03em
-      em
-        color: #960911
-        font-weight: bold
-      a
-        color: #960911
-        font-weight: bold
+          span.highlight
+            color: #960911
+            font-weight: bold
+            font-size: 36px
+        #tagline
+          clear: both
+          margin: 5px 0 15px 0
+          h2
+            text-align: center
+            font-weight: bold
+            color: #960911
+            font-size: 50px
+          h3
+            text-align: center
+            color: #333
+            font-size: 22px 
+            font-family: "Philosopher", sans-serif
+        //#banner
+          //width: 100%
+          //float: left
+          //padding: 20px 30px
+          //margin: 10px -35px
+          //background-color: #e8e8e2
+          //box-shadow: 2px 2px 5px #555
+          //-moz-box-shadow: 2px 2px 5px #555
+          //-webkit-box-shadow: 2px 2px 5px #555
+        #about_image
+          float: left
+          width: 320px 
+          margin: 25px 0
+          margin-left: 50px
+        #action_text
+          float: left
+          text-align: left
+          width: 520px
+          font-family: 'Philosopher', sans-serif
+          color: #643
+          font-size: 28px
+          font-style: normal
+          font-weight: bold
+          margin: 30px 10px
+          .schedule
+            float: left
+            clear: both
+            font-size: small
+            color: #886
+            margin-top: 10px
 
-    #summary
-      //margin-top: 400px
-      font-size: 22px
-      h3
-        font-size: 28px
-        font-weight: bold
-        float: left
-        margin: 0.8em 0
-        clear: both
-      p
-        clear: both
-        font-weight: normal
-        line-height: 1.5em
-        margin: 0.8em 0
-        float: left
-      ul.contents
-        float: left
-        clear: left
-        margin: 10px 30px
-        list-style: disc
-        line-height: 1.5em
-        width: 420px
-      #photos
-        float: right
-        width: 420px
-        img
-          background-color: #eee
-          border: 1px solid #aaa
-          margin: 5px
-          padding: 5px
-      
-    #details
-      margin-bottom: 100px
-      dd
-        float:left
-        clear: both
-        font-weight: bold
-        font-size: 26px
-        margin: 20px 0
-      dt
-        float:left
-        clear:both
-        margin-left: 40px
-        font-size: 22px
+          #register_link
+            display: block
+            float: left
+            clear: both
+            background-color: #960911
+            color: #e8e8e2
+            font-size: 32px
+            padding: 10px
+            margin-top: 80px
+            text-decoration: none
+            border-radius: 8px
+            box-shadow: 5px 5px 2px #333
+            -moz-box-shadow: 5px 5px 2px #333
+            -webkit-box-shadow: 5px 5px 2px #333
+            -moz-border-radius: 8px
+            -webkit-border-radius: 8px
+      h2
+        font-family: 'Philosopher', serif
+        font-size: 36px
+        font-style: normal
+        font-weight: 400
+        text-shadow: none
+        text-decoration: none
+        text-transform: none
+        word-spacing: 0em
+        line-height: 120%
         a
           color: #960911
-        #map
-          float: left
+          text-decoration: none
+      #calltext
+        margin-top: 1em
+        text-align: center
+        font-size: 22px
+        font-family: 'Josefin Sans', sans-serif
+        letter-spacing: -0.03em
+        em
+          color: #960911
+          font-weight: bold
+        a
+          color: #960911
+          font-weight: bold
+
+      .section
+        //margin-top: 400px
+        font-size: 22px
+        h3
+          font-size: 28px
+          font-weight: bold
+          margin: 0.8em 0
           clear: both
-          width: 435
-          height: 360
-          background-color: white
-          margin: 15px 0
-          padding: 5px
-          box-shadow: 3px 3px 3px #333
-          -moz-box-shadow: 3px 3px 3px #333
-          -webkit-box-shadow: 3px 3px 3px #333
-          a
-            text-decoration: none
-            font-size: smaller
-            color: #960911
-        #fb_page
-          margin: 5px
+        p
+          clear: both
+          font-weight: normal
+          line-height: 1.5em
+          margin: 0.8em 0
+        ul.contents
           float: left
           clear: left
-          width: 400px
-        #tweetbox
-          margin: 5px
-          float: left
-          width: 400px
+          margin: 10px 30px
+          list-style: disc
+          line-height: 1.5em
+          width: 420px
+        #photos
+          float: right
+          width: 420px
+          img
+            background-color: #eee
+            border: 1px solid #aaa
+            margin: 5px
+            padding: 5px
+        
+      #details
+        margin-bottom: 100px
+        dd
+          float:left
+          clear: both
+          font-weight: bold
+          font-size: 26px
+          margin: 20px 0
+        dt
+          float:left
+          clear:both
+          margin-left: 40px
+          font-size: 22px
+          a
+            color: #960911
+          #map
+            float: left
+            clear: both
+            width: 435
+            height: 360
+            background-color: white
+            margin: 15px 0
+            padding: 5px
+            box-shadow: 3px 3px 3px #333
+            -moz-box-shadow: 3px 3px 3px #333
+            -webkit-box-shadow: 3px 3px 3px #333
+            a
+              text-decoration: none
+              font-size: smaller
+              color: #960911
+          #fb_page
+            margin: 5px
+            float: left
+            clear: left
+            width: 400px
+          #tweetbox
+            margin: 5px
+            float: left
+            width: 400px
