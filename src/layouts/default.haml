@@ -49,12 +49,12 @@
           %li
             %a(href="/" class="#{'link-active' if current_page.index('index')}") Home
           %li
-            %a(href="/content" class="#{'link-active' if current_page.index('content')}") Content
+            %a(href="/content.html" class="#{'link-active' if current_page.index('content')}") Content
           %li
             - if current_page.index("corporate")
-              %a.link-active(href="/corporate" title="Corporates" ) Corporates
+              %a.link-active(href="/corporate.html" title="Corporates" ) Corporates
             - else
-              %a(href="/corporate" title="Corporates" ) Corporates
+              %a(href="/corporate.html" title="Corporates" ) Corporates
           %li
             %a.iframe(href="http://dharana.wufoo.com/forms/z7x3k7/" title="Contact Us") Contact
           %li
