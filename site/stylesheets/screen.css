@@ -364,16 +364,28 @@ body .content .container #about #action_text .schedule {
   color: #888866;
   margin-top: 10px;
 }
-/* line 240 */
-body .content .container #about #action_text #register_link {
+/* line 239 */
+body .content .container #about #action_text .register_caption {
+  float: left;
+  clear: both;
+  font-size: 34px;
+  margin-top: 60px;
+}
+/* line 244 */
+body .content .container #about #action_text .action_buttons {
   display: block;
   float: left;
   clear: both;
+}
+/* line 248 */
+body .content .container #about #action_text .register_link {
+  display: block;
+  float: left;
   background-color: #960911;
   color: #e8e8e2;
   font-size: 32px;
   padding: 10px;
-  margin-top: 80px;
+  margin: 5px;
   text-decoration: none;
   border-radius: 8px;
   box-shadow: 5px 5px 2px #333333;
@@ -382,7 +394,7 @@ body .content .container #about #action_text #register_link {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
 }
-/* line 256 */
+/* line 263 */
 body .content .container h2 {
   font-family: "Philosopher", serif;
   font-size: 36px;
@@ -394,12 +406,12 @@ body .content .container h2 {
   word-spacing: 0em;
   line-height: 120%;
 }
-/* line 266 */
+/* line 273 */
 body .content .container h2 a {
   color: #960911;
   text-decoration: none;
 }
-/* line 269 */
+/* line 276 */
 body .content .container #calltext {
   margin-top: 1em;
   text-align: center;
@@ -407,35 +419,35 @@ body .content .container #calltext {
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: -0.03em;
 }
-/* line 275 */
+/* line 282 */
 body .content .container #calltext em {
   color: #960911;
   font-weight: bold;
 }
-/* line 278 */
+/* line 285 */
 body .content .container #calltext a {
   color: #960911;
   font-weight: bold;
 }
-/* line 282 */
+/* line 289 */
 body .content .container .section {
   font-size: 22px;
 }
-/* line 285 */
+/* line 292 */
 body .content .container .section h3 {
   font-size: 28px;
   font-weight: bold;
   margin: 0.8em 0;
   clear: both;
 }
-/* line 290 */
+/* line 297 */
 body .content .container .section p {
   clear: both;
   font-weight: normal;
   line-height: 1.5em;
   margin: 0.8em 0;
 }
-/* line 295 */
+/* line 302 */
 body .content .container .section ul.contents {
   float: left;
   clear: left;
@@ -444,39 +456,39 @@ body .content .container .section ul.contents {
   line-height: 1.5em;
   width: 420px;
 }
-/* line 302 */
+/* line 309 */
 body .content .container .section #photos {
   float: right;
   width: 420px;
 }
-/* line 305 */
+/* line 312 */
 body .content .container .section #photos img {
   background-color: #eeeeee;
   border: 1px solid #aaaaaa;
   margin: 5px;
   padding: 5px;
 }
-/* line 311 */
+/* line 318 */
 body .content .container #details {
   margin-bottom: 100px;
 }
-/* line 313 */
+/* line 320 */
 body .content .container #details dd {
   clear: both;
   font-weight: bold;
   font-size: 26px;
   margin: 20px 0;
 }
-/* line 319 */
+/* line 326 */
 body .content .container #details dt {
   margin-left: 40px;
   font-size: 22px;
 }
-/* line 324 */
+/* line 331 */
 body .content .container #details dt a {
   color: #960911;
 }
-/* line 326 */
+/* line 333 */
 body .content .container #details dt #map {
   float: left;
   clear: both;
@@ -489,20 +501,20 @@ body .content .container #details dt #map {
   -moz-box-shadow: 3px 3px 3px #333333;
   -webkit-box-shadow: 3px 3px 3px #333333;
 }
-/* line 337 */
+/* line 344 */
 body .content .container #details dt #map a {
   text-decoration: none;
   font-size: smaller;
   color: #960911;
 }
-/* line 341 */
+/* line 348 */
 body .content .container #details dt #fb_page {
   margin: 5px;
   float: left;
   clear: left;
   width: 400px;
 }
-/* line 346 */
+/* line 353 */
 body .content .container #details dt #tweetbox {
   margin: 5px;
   float: left;
